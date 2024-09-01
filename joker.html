@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小丑的结局总是千篇一律</title>
+    <link rel="stylesheet" href="./styles/tailwind.css" />
+  </head>
+  <body>
+    <div class="min-w-44 py-4 border flex-col flex items-center justify-center">
+      <div class="h-44 w-44 cursor-pointer" id="joker-gif-container">
+        <img
+          src="/images/joker-gif/frame_000_delay-0.02s.gif"
+          id="joker"
+          class="active:scale-95 transition-transform h-full w-full"
+          alt=""
+        />
+      </div>
+      <button
+      id="download-img-btn"
+        class="border p-1 rounded-md group active:scale-95 transition-all"
+      >
+        🤡
+        <span class="group-hover:hidden"> 请点击小丑 </span>
+        <span class="hidden group-hover:inline">下载当前图片</span>
+      </button>
+      <audio loop id="joker-audio" src="./audio/joker.m4s" />
+    </div>
+  </body>
+
+  <script src="./js/joker.js"></script>
+</html>

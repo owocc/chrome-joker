@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Joker",
+  "description": "你在照镜子吗",
+  "version": "1.0",
+  "action": {
+    "default_popup": "joker.html",
+    "default_icon": "images/joker.png"
+  }
+}
